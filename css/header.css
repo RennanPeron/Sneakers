@@ -6,12 +6,18 @@ header, .side-menu, .profile{
 
 header{
     border: 1px solid red;
-    padding: 0 2em;
+    padding: 0.8em 2em;
     justify-content: space-between;
 }
 
+#logo {
+    font-size: 2em;
+    font-weight: bolder;
+    border: 1px solid red;
+}
+
 .side-menu, .profile {
-    gap: 1em;
+    gap: 1.5em;
 }
 
 .btn-menu, .btn-close {
@@ -26,10 +32,12 @@ header{
 
 .btn-menu {
     background-image: url(../img/icon-menu.svg);
+    border: 1px solid red;
 }
 
 .btn-close {
     background-image: url(../img/icon-close.svg);
+    margin-bottom: 24px;
 }
 
 .side-bar {
@@ -45,4 +53,25 @@ header{
     height: 100vh;
     transition: 0.5s;
     margin-left: -100vw;
+}
+
+.side-menu a {
+    text-decoration: none;
+    padding: 8px
+}
+
+#cart-icon {
+    background: url(../img/icon-cart.svg) no-repeat center;
+    text-indent: -3000px;
+    width: 24px;
+    height: 24px;
+}
+
+#avatar {
+    background: url(../img/image-avatar.png) no-repeat center;
+    background-size: contain;
+    border-radius: 25px;
+    text-indent: -3000px;
+    width: 24px;
+    height: 24px;
 }
