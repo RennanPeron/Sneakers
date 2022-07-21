@@ -30,3 +30,7 @@
     background-color: var(--very-dark-blue);
     transition: 0.5s;
 }
+
+#container {
+    width: 100vw;
+}

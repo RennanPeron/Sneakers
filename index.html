@@ -16,8 +16,13 @@
       href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <!-- STYLE SHEET -->
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/main-section.css" />
+    
     <title>Frontend Mentor | E-commerce product page</title>
   </head>
   <body>
@@ -41,7 +46,17 @@
         </div>
       </header>
       <main>
-        <div class="carrousel">IMAGEM</div>
+        <div class="carousel">
+          <img src="img/image-product-1.jpg" alt="product">
+          <div class="btn-container">
+            <button class="btn btn-before"><span class="material-symbols-outlined">
+              chevron_left
+            </span></button>
+            <button class="btn btn-after"><span class="material-symbols-outlined">
+              chevron_right
+            </span></button>
+          </div>
+        </div>
         <div class="info">
           <div class="brand">Sneaker Company</div>
           <div class="title">Fall Limited Edition Sneakers</div>
@@ -52,11 +67,15 @@
               the weather can offer.
             </p>
           </div>
-          <div class="price">125$</div>
-        </div>
-        <div class="cart">
-          <div class="quantity">0</div>
-          <div class="addtocart">Add to cart</div>
+          <div class="price">$250.00</div>
+          <div class="cart">
+            <div class="quantity">
+              <button class="btn">-</button>
+              0
+              <button class="btn">+</button>
+            </div>
+            <div class="addtocart">Add to cart</div>
+          </div>
         </div>
       </main>
       <footer class="attribution">

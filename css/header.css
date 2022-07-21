@@ -5,19 +5,26 @@ header, .side-menu, .profile{
 }
 
 header{
-    border: 1px solid red;
-    padding: 0.8em 2em;
+    /* ACIMA DE 320px */
+    /* padding: 0.8em 2em; */
+    /* PENSANDO NO MOBILE S: 320px */
+    padding-right: 1.2em;
+    padding-left: 0.6em;
     justify-content: space-between;
 }
 
 #logo {
     font-size: 2em;
     font-weight: bolder;
-    border: 1px solid red;
 }
 
-.side-menu, .profile {
+.profile {
     gap: 1.5em;
+    
+}
+
+.side-menu {
+    gap: 0.4em;
 }
 
 .btn-menu, .btn-close {
@@ -31,13 +38,14 @@ header{
 }
 
 .btn-menu {
+    margin-top: 0.5em;
     background-image: url(../img/icon-menu.svg);
-    border: 1px solid red;
 }
 
 .btn-close {
     background-image: url(../img/icon-close.svg);
-    margin-bottom: 24px;
+    margin-bottom: 1.5em;
+    margin-top: 18px;
 }
 
 .side-bar {
@@ -57,21 +65,21 @@ header{
 
 .side-menu a {
     text-decoration: none;
-    padding: 8px
+    padding: 0.5em
 }
 
 #cart-icon {
     background: url(../img/icon-cart.svg) no-repeat center;
     text-indent: -3000px;
-    width: 24px;
-    height: 24px;
+    width: 1.5em;
+    height: 1.5em;
 }
 
 #avatar {
     background: url(../img/image-avatar.png) no-repeat center;
     background-size: contain;
-    border-radius: 25px;
+    border-radius: 1.5em;
     text-indent: -3000px;
-    width: 24px;
-    height: 24px;
+    width: 1.5em;
+    height: 1.5em;
 }
