@@ -1,6 +1,6 @@
 .carousel img {
     max-width: 100%;
-    max-height: 100%;
+    /* max-height: 100%; */
 }
 
 .btn {
@@ -21,7 +21,7 @@
 }
 
 .btn-after {
-    right: 0.5em;
+    right: 0.6em;
 }
 .btn-before {
     left: 0.5em;
@@ -83,4 +83,9 @@
     flex: row;
     justify-content: center;
     align-items: center;
+}
+
+.attribution {
+    margin: 1em auto;
+    width: 80%;
 }
