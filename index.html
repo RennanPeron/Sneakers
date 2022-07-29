@@ -24,7 +24,7 @@
     
     <title>Frontend Mentor | E-commerce product page</title>
   </head>
-  <body>
+  <body onload="applyDiscount()">
     <div  id="container">
       <header id="header">
         <div class="side-menu" >
@@ -66,11 +66,17 @@
               the weather can offer.
             </p>
           </div>
-          <div class="price">$250.00</div>
+          <div class="price">
+            <div class="price-value">
+              <p id="price">$250.00</p>
+              <p id="discount">50%</p>
+            </div>
+            <p id="originalPrice">$250.00</p>
+          </div>
           <div class="cart">
             <div class="quantity">
               <button class="btn">-</button>
-              0
+              <p class="cart-count">0</p>
               <button class="btn">+</button>
             </div>
             <div class="addtocart">Add to cart</div>
@@ -85,5 +91,8 @@
       </footer>
     </div>
   </body>
+  
+  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
   <script src="script/sideBar.js"></script>
+  <script src="script/discount.js"></script>
 </html>
