@@ -41,7 +41,12 @@
           <div id="logo">sneakers</div>
         </div>
         <div class="profile">
-          <div id="cart-icon">Carrinho</div> 
+          <div id="cart-icon">
+            <p>Carrinho</p>
+            <span id="cart-count" class="no-count">
+              0
+            </span>
+          </div> 
           <div id="avatar">Avatar</div>
         </div>
       </header>
@@ -78,7 +83,7 @@
               <p class="cart-count">0</p>
               <button class="btn">+</button>
             </div>
-            <div class="addtocart">Add to cart</div>
+            <div onclick="addToCart()" class="addtocart">Add to cart</div>
           </div>
         </div>
       </main>
@@ -94,4 +99,5 @@
   <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
   <script src="script/sideBar.js"></script>
   <script src="script/discount.js"></script>
+  <script src="script/cart.js"></script>
 </html>

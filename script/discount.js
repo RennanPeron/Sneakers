@@ -6,8 +6,6 @@ let productItem = {
     discountedPrice: "125.00"
 }
 
-// let price = document.getElementById("price");
-
 let applyDiscount = () => {
     let price = document.getElementById("price")
     
