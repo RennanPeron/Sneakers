@@ -17,6 +17,15 @@
     font-family: 'Kumbh Sans', sans-serif;
 }
 
+/* Consertar o deslocamento lateral */
+.html, body {
+    overflow-x: hidden;
+}
+
+body {
+    position: relative;
+}
+
 .material-symbols-outlined {
   font-variation-settings:
   'FILL' 0,

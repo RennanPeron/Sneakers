@@ -1,0 +1,14 @@
+@media (min-width: 755px) {
+    main {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .btn-container {
+        display: none;
+    }
+
+    .info {
+        padding-top: 0;
+    }
+}
