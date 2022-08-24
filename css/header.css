@@ -6,10 +6,10 @@ header, .side-menu, .profile{
 
 header{
     /* ACIMA DE 320px */
-    /* padding: 0.8em 2em; */
+    padding: 0 0.6em;
     /* PENSANDO NO MOBILE S: 320px */
-    padding-right: 1.2em;
-    padding-left: 0.6em;
+    /* padding-right: 1.2em;
+    padding-left: 0.6em; */
     justify-content: space-between;
 }
 
@@ -45,27 +45,34 @@ header{
 .btn-close {
     background-image: url(../img/icon-close.svg);
     margin-bottom: 1.5em;
-    margin-top: 12px;
+    margin-top: 7px;
 }
 
-.side-bar {
+/* MOVIDO PARA OS MEDIA QUERIES */
+/* .side-bar {
     display: flex;
     position: absolute;
     top: 0;
     left: 0;
     z-index: 2;
-    padding-left: 1em;
+    padding-left: 0.6em;
     flex-direction: column;
     background-color: white;
     width: 50%;
     height: 100vh;
     transition: 0.5s;
     margin-left: -100vw;
-}
+} */
 
 .side-menu a {
     text-decoration: none;
-    padding: 0.5em
+    padding: 0.5em;
+    width: fit-content;
+    color: var(--dark-grayish-blue);
+}
+
+.side-menu a:hover {
+    color: var(--very-dark-blue);
 }
 
 #cart-icon {

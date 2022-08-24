@@ -19,7 +19,7 @@
 
 /* Consertar o deslocamento lateral */
 .html, body {
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 body {
@@ -40,6 +40,6 @@ body {
     transition: 0.5s;
 }
 
-#container {
+/* #container {
     width: 100vw;
-}
+} */
