@@ -38,10 +38,6 @@
     .side-bar{
         margin-left: 0!important;
     }
-
-    .side-bar a {
-        padding: 0 0.8em;
-    }
     
     .side-bar a:hover{
         border-bottom: 0.3em solid var(--orange);
@@ -64,7 +60,10 @@
         display: flex;
         flex-direction: row;
         margin-bottom: 3em;
+        justify-content: space-around;
     }
+    
+    /* CARROSSEL DE IMAGENS */
     
     .btn-container {
         display: none;
@@ -81,13 +80,36 @@
 
     .carousel img {
         border-radius: 25px;
-        width: 70%;
+        width: 80%;
+    }
 
+    /* INFORMAÇÕES */
+    
+    .info {
+        padding: 0;
+        padding-right: 2em;
+        width: 80%;
+    }
+
+    .info .title {
+        font-size: 2em;
     }
 
     /* RODAPÉ */
 
     footer {
         text-align: center;
+    }
+}
+
+@media (min-width: 800px ) {
+    .side-bar a {
+        padding: 0 0.8em;
+    }
+}
+
+@media (min-width: 1023px ) {
+    .info .title {
+        font-size: 2.5em;
     }
 }

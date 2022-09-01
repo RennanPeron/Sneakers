@@ -74,6 +74,7 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    box-shadow: 0px 1.2em 15px var(--pale-orange);
 }
 
 .attribution {
