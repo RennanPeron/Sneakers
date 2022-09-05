@@ -20,6 +20,7 @@
 }
 
 @media (min-width: 755px) {
+    
     /* CABEÇALHO */
     #header{
         padding: 1.8em 1.6em;
@@ -76,23 +77,55 @@
     .carousel {
         display: flex;
         justify-content: center;
+        align-items: center;
+        /* max-width: 500px; */
+        width: fit-content;
     }
 
     .carousel img {
         border-radius: 25px;
         width: 80%;
+        max-width: 1000px;
     }
 
     /* INFORMAÇÕES */
+    .info-container {
+        /* width: 50%; */
+    }
     
     .info {
         padding: 0;
         padding-right: 2em;
         width: 80%;
+        /* max-width: 500px; */
     }
 
     .info .title {
         font-size: 2em;
+    }
+
+    #price-info {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    #price-value {
+        margin-bottom: 0.5em;
+    }
+    
+    .cart {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .cart .quantity  {
+        width: 20%;
+        /* width: 7em; */
+    }
+
+    .cart .addtocart {
+        margin: 0;
+        width: 60%;
     }
 
     /* RODAPÉ */
@@ -106,10 +139,19 @@
     .side-bar a {
         padding: 0 0.8em;
     }
+
+    .info .title {
+        font-size: 3em;
+    }
 }
 
 @media (min-width: 1023px ) {
     .info .title {
         font-size: 2.5em;
+    }
+
+    #container {
+        width: 80%;
+        margin: 0 auto;
     }
 }

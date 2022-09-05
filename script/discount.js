@@ -10,7 +10,7 @@ let applyDiscount = () => {
     let price = document.getElementById("price")
     
     if(productItem.hasDiscount) {
-        price.innerHTML = productItem.discountedPrice
+        price.innerHTML = "$" + productItem.discountedPrice
         // VALOR EM PORCENTAGEM DO DESCONTO
         var discount = document.createElement("p")
         discount.setAttribute("id", "discount")
