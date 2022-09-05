@@ -80,3 +80,28 @@
     margin: 1em auto;
     width: 80%;
 }
+
+#cart-box {
+    width: 95%;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0px 1.5em 2em -0.8em var(--grayish-blue);
+    position: absolute;
+}
+
+.close {
+    display: none;
+}
+
+#cart-box h4 {
+    padding: 2em;
+    border-bottom: 1px solid var(--grayish-blue);
+}
+
+.cart-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    text-align: center;
+}

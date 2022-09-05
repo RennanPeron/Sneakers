@@ -17,11 +17,6 @@
     font-family: 'Kumbh Sans', sans-serif;
 }
 
-/* Consertar o deslocamento lateral */
-.html, body {
-    /* overflow-x: hidden; */
-}
-
 body {
     position: relative;
 }

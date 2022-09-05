@@ -55,7 +55,7 @@
           </div>
         </div>
         <div class="profile">
-          <div id="cart-icon">
+          <div onclick="openCart()" id="cart-icon">
             <p>Carrinho</p>
             <span id="cart-count" class="no-count">
               0
@@ -109,6 +109,12 @@
           >Frontend Mentor</a
         >. Coded by <a href="https://github.com/RennanPeron">Rennan Oliveira</a>.
       </footer>
+    </div>
+    <div id="cart-box" class="close">
+      <h4>Cart</h4>
+      <div class="cart-items">
+        <p>Your cart is empty.</p>
+      </div>
     </div>
   </body>
   <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
