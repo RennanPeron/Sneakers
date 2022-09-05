@@ -131,6 +131,11 @@
         width: 60%;
     }
 
+    #cart-count {
+        top: 3em;
+        margin-left: 24px;
+    }
+
     /* RODAPÉ */
 
     footer {
