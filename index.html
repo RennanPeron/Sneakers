@@ -29,13 +29,13 @@
     <title>Frontend Mentor | E-commerce product page</title>
   </head>
   <body onload="applyDiscount()">
-    <div  id="container">
+    <div id="container">
       <header id="header">
         <div class="side-menu" >
-          <button class="btn-menu" onclick="toggleSideBar()"></button>
+          <button class="btn-menu" onclick="toggleSideBar(),closeCart()"></button>
           <div id="logo">sneakers</div>
           <div class="side-bar" id="side-bar">
-            <button class="btn-close" onclick="toggleSideBar()"></button>
+            <button class="btn-close" onclick="toggleSideBar(),closeCart()"></button>
             <!-- <ul type="none">
               <li>
               </li>ssss
@@ -113,25 +113,25 @@
     </div>
     <div id="cart-box" class="close">
       <h4>Cart</h4>
-      <div class="cart-items">
-        <!-- CARRINHO VAZIO -->
-        <!-- <div class="card-items--empty">
-          <p>Your cart is empty.</p>
-        </div> -->
-        <!-- CARRINHO CHEIO -->
-        <div class="cart-items--full">
-          <img class="cart-item-img" src="img/image-product-1-thumbnail.jpg" alt="Image Product">
-          <div class="cart-item--info">
-            <h3>Fall Limited Edition Sneakers</h3>
-            <p class="cart-item-value">$125.00 <span class="multiples">x3 $375.00</span></p>
+      <div class="cart-container">
+        <div class="cart-items">
+          <!-- CARRINHO VAZIO -->
+          <div class="cart-items--empty">
+            <p>Your cart is empty.</p>
           </div>
-          <p class="delete-cart-item"><span class="material-symbols-outlined">
-            delete
-            </span></p>
-        </div>
-        <div class="cart-item--checkout">
-          <button class="btn-checkout">Checkout</button>
-        </div>
+          <!-- CARRINHO CHEIO -->
+          <!-- <div class="cart-item--product">
+            <img class="cart-item-img" src="img/image-product-1-thumbnail.jpg" alt="Image Product">
+            <div class="cart-item--info">
+              <h3>Fall Limited Edition Sneakers</h3>
+              <p class="cart-item-value">$125.00 <span class="multiples">x3 $375.00</span></p>
+            </div>
+            <p class="delete-cart-item"></p>
+          </div>
+        </div> -->
+      </div>
+      <div class="cart-item--checkout hide">
+        <button class="btn-checkout">Checkout</button>
       </div>
     </div>
   </body>
