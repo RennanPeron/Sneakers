@@ -6,10 +6,8 @@ let showSideBar = false
 function toggleSideBar() {
     showSideBar = !showSideBar;
     if (showSideBar) {
-        sidebar.style.marginLeft = '0'
-        container.classList.add('blur')
+        sidebar.classList.toggle("close")
     } else {
-        sidebar.style.marginLeft = '-100vw'
-        container.classList.remove('blur')
+        sidebar.classList.toggle("close")
     }
 }

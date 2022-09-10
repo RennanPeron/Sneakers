@@ -29,12 +29,6 @@ body {
   'opsz' 48
 }
 
-.blur {
-    filter: grayscale(80%);
-    background-color: var(--very-dark-blue);
-    transition: 0.5s;
-}
-
 /* #container {
     width: 100vw;
 } */

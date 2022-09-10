@@ -105,6 +105,7 @@ header{
 #avatar {
     background: url(../img/image-avatar.png) no-repeat center;
     background-size: contain;
+    background-origin: border-box;
     border-radius: 1.5em;
     text-indent: -3000px;
     width: 1.5em;

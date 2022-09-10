@@ -90,6 +90,9 @@ const quantityAdd = (btn) => {
 
 const openCart = () => {
     document.querySelector("#cart-box").classList.toggle("close")
+    if(showSideBar){
+        toggleSideBar()
+    }
 }
 
 const closeCart = () => {
